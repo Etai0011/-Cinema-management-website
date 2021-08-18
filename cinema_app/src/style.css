@@ -1,0 +1,155 @@
+.logBackGround{
+    background: url(Background-Narrow.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    overflow: scroll;
+}
+
+
+.titleStyle {
+    color: aliceblue;
+    font-family: 'Tourney', cursive;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.secondTitle{
+    text-align: center;
+    color: aliceblue;
+    margin-top: -70px;
+    font-family: 'Acme', sans-serif;
+}
+
+.logInput{
+    text-align: center;
+    color: aliceblue;
+}
+.centerItems{
+    display: flex;
+    justify-content: center;
+}
+.heighttext{
+    display:inline-block;
+    padding:5px 5px;
+    line-height:120%;
+    font-size: larger;
+}
+
+.fontStyle{
+    color: aliceblue;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5em;
+}
+
+.fontStyleMovies{
+    color: aliceblue;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+}
+
+  
+  .button {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out; 
+  }
+  
+.centerToolBar{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.heighttextS{
+    display:inline-block;
+    padding:5px 5px;
+    line-height:120%;
+    font-size: larger;
+    width: 300px; height: 20px
+}
+
+.but{
+    font-family:'Open Sans';
+    font-size: 17px;
+    font-weight:800;
+    display:inline-block;
+    color:black;
+    border-radius: .25em;
+    background-color: #5e5d64;
+  line-height:20px;
+  transition:ease-in-out .2s;
+  padding: 0 16px;
+}
+
+.primary {
+      font-family:'Open Sans';
+      font-size: 17px;
+      font-weight:800;
+      display:inline-block;
+      color:black;
+      border-radius: .25em;
+      background-color: #1e522b;
+    line-height:20px;
+    transition:ease-in-out .2s;
+    padding: 0 16px;
+  }
+
+  .del {
+    font-family:'Open Sans';
+    font-size: 17px;
+    font-weight:800;
+    display:inline-block;
+    color:black;
+    border-radius: .25em;
+    background-color: rgb(150, 17, 17);
+  line-height:20px;
+  transition:ease-in-out .2s;
+  padding: 0 16px;
+}
+
+.sub {
+    font-family:'Open Sans';
+    font-size: 16px;
+    font-weight:400;
+    display:inline-block;
+    color:black;
+    border-radius: .25em;
+    background-color: grey;
+  line-height:20px;
+  transition:ease-in-out .2s;
+  padding: 0 16px;
+}
+
+
+.movieHeight{
+    height: 300px !important;
+}
+
+.perHeight{
+    height: 400px !important;
+}
+
+.centerPage{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+        
+}
+
+.moviesWatched{
+    color: honeydew;
+}
